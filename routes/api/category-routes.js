@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
     res.status(500).json(err);
   }
 });
+
 // find all categories
 // be sure to include its associated Products
 
